@@ -1,0 +1,98 @@
+.btn {
+  background-color: #a20520;
+  color: gold;
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  line-height: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: none;
+  position: relative;
+  padding: 0.5em 1em;
+  margin: 0.625em;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn:hover svg {
+  fill: white;
+}
+
+.btn2 {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  line-height: normal;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: none;
+  position: relative;
+  padding: 0.5em 1em;
+  margin: 0 .125rem;
+  background: #ccc;
+}
+
+.btn2:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn2:hover svg {
+  fill: white;
+}
+
+.card {
+  max-width: 100%;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.second_title {
+  margin-left: 10px;
+}
+
+.material-icons {
+  color: #D32F2F;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.main-description {
+  color: #aaaaaa;
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

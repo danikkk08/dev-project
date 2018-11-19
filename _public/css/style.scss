@@ -1,0 +1,86 @@
+$color-main: #a20520;
+$color-main-text: gold;
+
+.btn {
+    background-color: $color-main;
+    color: $color-main-text;
+
+display: inline-block;
+      white-space: nowrap;
+      vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	line-height: normal;
+	cursor: pointer;
+	user-select: none;
+	border: none;
+      position: relative;
+   padding: 0.5em 1em; 
+    
+    margin: 0.625em;
+	&:hover{
+		background-color: black;
+		color: white;
+		svg{
+			fill: white;
+		}
+	}
+}
+
+
+.btn2 {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  line-height: normal;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+    position: relative;
+  padding: 0.5em 1em;
+  margin: 0 .125rem;
+  background: #ccc;
+  &:hover{
+      background-color: black;
+      color: white;
+      svg{
+          fill: white;
+      }
+  }
+}
+
+.card {
+    max-width: 100%;                 
+    border: 1px solid #aaaaaa;    
+    border-radius: 4px;           
+    overflow: hidden;            
+    display: flex;                
+    flex-direction: column;       
+  }
+
+
+.title {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.second_title {
+    margin-left: 10px;
+}
+  .material-icons {
+    color: #D32F2F;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    align-items: left;
+  }
+
+  .main-description {
+    color: #aaaaaa;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 5px;
+    padding: 10px; 
+  }
